@@ -22,7 +22,7 @@ jobs:
     runs-on:
       self-hosted
     concurrency: yorkmgmt-tfstate
-    environment: yorkalz-yorkmgmt-plan
+    environment: yorkalz-yorkmgmt-apply
     permissions:
       id-token: write
       contents: read
