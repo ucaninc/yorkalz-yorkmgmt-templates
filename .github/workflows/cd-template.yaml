@@ -136,5 +136,4 @@ jobs:
           -chdir="${{inputs.root_module_folder_relative_path}}" \
           apply \
           -input=false \
-          -auto-approve \
           tfplan
